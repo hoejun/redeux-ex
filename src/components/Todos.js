@@ -24,23 +24,7 @@ const Todos = ({ input, todos, onChangeInput, onInsert, onToggle, onRemove }) =>
 
   return (
     <div>
-<<<<<<< HEAD
-=======
-      {console.log('22')}
-      {console.log('테스트')}
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a733f09 (no message)
-=======
-      {console.log('테스트')}
-      {console.log('테스트')}
-      {console.log('테스트')}
->>>>>>> 727de55 (no message)
-=======
-      {console.log('테스트')}
-      {console.log('테스트')}
-      {console.log('테스트')}
->>>>>>> 727de5501163ec9b1d9a583cb51bf5cfce5edee1
+      {console.log('테스트 브랜치')}
       <form onSubmit={onSubmit}>
         <div>d</div>
         <input value={input} onChange={onChange} />
