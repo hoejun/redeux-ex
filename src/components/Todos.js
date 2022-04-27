@@ -24,6 +24,7 @@ const Todos = ({ input, todos, onChangeInput, onInsert, onToggle, onRemove }) =>
 
   return (
     <div>
+      {console.log('22')}
       <form onSubmit={onSubmit}>
         <input value={input} onChange={onChange} />
         <button type='submit'>등록</button>
