@@ -24,6 +24,7 @@ const Todos = ({ input, todos, onChangeInput, onInsert, onToggle, onRemove }) =>
 
   return (
     <div>
+      {console.log('마스터 브랜치')}
       <form onSubmit={onSubmit}>
         <div>d</div>
         <input value={input} onChange={onChange} />
