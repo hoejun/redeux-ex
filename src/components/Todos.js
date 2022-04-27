@@ -28,7 +28,13 @@ const Todos = ({ input, todos, onChangeInput, onInsert, onToggle, onRemove }) =>
 =======
       {console.log('22')}
       {console.log('테스트')}
+<<<<<<< HEAD
 >>>>>>> a733f09 (no message)
+=======
+      {console.log('테스트')}
+      {console.log('테스트')}
+      {console.log('테스트')}
+>>>>>>> 727de55 (no message)
       <form onSubmit={onSubmit}>
         <div>d</div>
         <input value={input} onChange={onChange} />
