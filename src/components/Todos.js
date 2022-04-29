@@ -27,6 +27,7 @@ const Todos = ({ input, todos, onChangeInput, onInsert, onToggle, onRemove }) =>
       {console.log('테스트')}
       {console.log('테스트')}
       {console.log('테스트')}
+      {console.log('테스트')}
       <form onSubmit={onSubmit}>
         <div>d</div>
         <input value={input} onChange={onChange} />
