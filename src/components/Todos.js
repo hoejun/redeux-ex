@@ -21,7 +21,7 @@ const Todos = ({ input, todos, onChangeInput, onInsert, onToggle, onRemove }) =>
     onChangeInput('');
   };
   const onChange = (e) => onChangeInput(e.target.value);
-
+  console.log('마스터');
   return (
     <div>
       <form onSubmit={onSubmit}>
